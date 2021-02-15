@@ -11,6 +11,9 @@
 int main ()
 {
    int x,y;
+   printf("Entre com os números: ");
+   scanf("%d %d",&x,&y);
+   somaprod(x,y);
    printf("Soma:%d \nProduto:%d\n",s,p);
 
 }
